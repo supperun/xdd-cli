@@ -1,0 +1,26 @@
+{
+  "name": "xddcli",
+  "version": "1.0.0",
+  "description": "node & friends",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "xdd": "index.js"
+  },
+  "author": "supperun",
+  "license": "ISC",
+  "keywords": [
+    "node"
+  ],
+  "repository": {},
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^10.1.5",
+    "ora": "^8.0.1"
+  }
+}
